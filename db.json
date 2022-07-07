@@ -34,6 +34,11 @@
       "id": 7,
       "name": "Coop Jr.",
       "image": "https://winnebagoanimals.org/wp-content/uploads/2021/08/Raccoon.jpg"
+    },
+    {
+      "name": "new",
+      "image": "https://winnebagoanimals.org/wp-content/uploads/2021/08/Raccoon.jpg",
+      "id": 8
     }
   ]
 }

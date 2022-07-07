@@ -1,10 +1,14 @@
 import React from 'react'
 import RaccoonCard from './RaccoonCard'
 
-function RaccoonsContainer(props) {
+function RaccoonsContainer({raccoonsList, searchResult}) {
   return (
     <div className="raccoon-container">
-      {/* map through and show all of your raccoons here! */}
+      {searchResult.map((raccoon)=>{
+        return(
+        <RaccoonCard key={raccoon.id} raccoon={raccoon} />
+        )
+      })}
     </div>
   )
 }

@@ -1,10 +1,10 @@
 import React from 'react'
 
-function RaccoonCard(props) {
+function RaccoonCard({raccoon}) {
   return (
     <div className="raccoon-card">
-      <h3>Raccoon Name Goes Here</h3>
-      <img src="#" alt="raccoon name goes here" />
+      <h3>{raccoon.name}</h3>
+      <img src={raccoon.image} alt={raccoon.name} />
     </div>
   )
 }
